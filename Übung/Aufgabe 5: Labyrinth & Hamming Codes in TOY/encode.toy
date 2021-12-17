@@ -1,0 +1,27 @@
+program encode
+// Input:  Datei  
+// Output:   
+// Remarks:  
+// -----------------------------------------------------------------------------
+
+10: 8AFF
+11: CA14
+12: DA14
+13: 0000
+14: 8BFF
+15: 8CFF
+16: 8DFF
+17: 4EAB
+18: 4EED
+19: 4FAC
+1A: 4FFD
+1B: 41BC
+1C: 411D
+1D: 9AFF
+1E: 9BFF
+1F: 9CFF
+20: 9DFF
+21: 9EFF
+22: 9FFF
+23: 91FF
+24: FA10

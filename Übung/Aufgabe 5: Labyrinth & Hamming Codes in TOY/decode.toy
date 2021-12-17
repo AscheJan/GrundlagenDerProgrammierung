@@ -1,0 +1,40 @@
+program decode
+10: 8AFF                                 einlesen m1 in A
+11: CA14                                 ist m1 0? falls ja, dann zeile 14
+12: DA14                                 ist m1 1? falls ja, dann zeile 14 
+14: 8BFF                                 einlesen m2 in B
+15: 8CFF                                 einlesen m3 in C
+16: 8DFF                                 einlesen m4 in D
+17: 8EFF                                 einlesen p1 in E
+18: 8FFF                                 einlesen p2 in F
+19: 81FF                                 einlesen p3 in 1
+1A: 43AB                                 rechnen p1' in 3
+1B: 433D                                 fortsetzung p1'
+1C: 44AC                                 rechnen p2' in 4
+1D: 444D                                 fortsetzung p2'
+1E: 45BC                                 rechnen p3' in 5
+1F: 455D                                 fortsetzung p3'
+20: 46E3                                 ist p1=p1'? ergebnis in 6
+21: 47F4                                 ist p2=p2'? ergebnis in 7
+22: 4815                                 ist p3=p3'? ergebnis in 8
+23: 3967                                 Vergleich in 9 von 6 und 7 (p1,p1',p2,p2')
+24: 3298                                 vergleich in 2 von 9 und 8 (p1,p1',p2,p2',p3,p3')
+25: D250                                 wenn alle 3 falsch, dann sprung 50(korrektur) (2=1)
+26: 3368                                 vergleich in 3 von 6 und 8 (p1,p1',p3,p3')
+27: 3478                                 vergleich in 4 von 7 und 8 (p2,p2',p3,p3')
+28: D953
+29: D356
+2A: D459
+2B: 9AFF
+2C: 9BFF
+2D: 9CFF
+2E: 9DFF
+2F: FF10                                 
+50: 4DD2
+51: F12B                                   zieladresse der ausgabe einfgen
+53: 4AA9
+54: F12B
+56: 4BB3
+57: F12B
+59: 4CC4
+5A: F12B
