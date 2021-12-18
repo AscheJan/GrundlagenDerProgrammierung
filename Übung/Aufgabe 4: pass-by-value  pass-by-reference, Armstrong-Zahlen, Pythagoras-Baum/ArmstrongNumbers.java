@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 public class ArmstrongNumbers {
   public static void main(String[] args) {
     int[] test = giveArmstrongNumbers(Integer.parseInt(args[0]));
