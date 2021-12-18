@@ -1,5 +1,11 @@
 import java.math.BigInteger;
 
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
+
 public class Nolindrom
 {
   
