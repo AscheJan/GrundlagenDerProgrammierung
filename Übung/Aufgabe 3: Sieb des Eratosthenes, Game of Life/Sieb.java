@@ -1,4 +1,8 @@
-
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 public class Sieb {
 
 	public static void main (String[]args) {
