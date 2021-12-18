@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 public class Aufgabe2_Vorlage {
 
     // Teilaufgabe Zeile 17
