@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 import gdp.stdlib.StdDraw;
 
 public class MazeSolver {
