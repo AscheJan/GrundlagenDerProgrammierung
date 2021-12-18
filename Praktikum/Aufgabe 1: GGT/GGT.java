@@ -1,6 +1,7 @@
 
 /**
- * @author Jan Asche
+ * 
+ * @author Angelique Anders, Jan Asche
  *
  */
 public class GGT {
