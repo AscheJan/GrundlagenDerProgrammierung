@@ -1,9 +1,5 @@
 /**
- * 
- */
-
-/**
- * @author Jan Asche, Angelique Anders, Felix Golub
+ * @author Jan Asche, Angelique Anders
  *
  */
 public class KVNummerPruefer {
