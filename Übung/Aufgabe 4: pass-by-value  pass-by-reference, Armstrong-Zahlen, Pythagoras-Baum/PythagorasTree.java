@@ -1,6 +1,7 @@
-/*
- * @author: Felix Joshua Golub, Jan Asche, Angelique Anders
- * @version: 5.12
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
  */
 
 import gdp.stdlib.*;
