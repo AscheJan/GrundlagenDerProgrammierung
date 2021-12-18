@@ -1,6 +1,12 @@
 
 public class Bigs {
 
+	/**
+	 * 
+ 	* @author Angelique Anders, Jan Asche
+	 *
+ 	*/
+	
 	// addiert die Ziffernfelder a und b
 	public static int[ ] add (int[ ] a, int[ ] b) { 		
 		int uberflow=0;
