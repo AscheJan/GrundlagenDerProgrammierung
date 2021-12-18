@@ -1,5 +1,11 @@
 import gdp.stdlib.*;
 
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
+
 public class GameOfLife {
 
 	public static void main(String[] args) {
