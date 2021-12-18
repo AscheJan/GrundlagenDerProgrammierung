@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 public class FlugSimulator
 {
   public static void main (String[]args)
