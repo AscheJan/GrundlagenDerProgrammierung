@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author Angelique Anders, Jan Asche
+ *
+ */
 program decode
 10: 8AFF                                 einlesen m1 in A
 11: CA14                                 ist m1 0? falls ja, dann zeile 14
